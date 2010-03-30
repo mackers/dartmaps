@@ -1,0 +1,93 @@
+v\:* {
+	behavior:url(#default#VML);
+}
+
+body {
+	margin: 0;
+}
+
+#mappanel {
+	margin: 0;
+	padding: 0;
+}
+
+#infopanel {
+	margin: 10px;
+	position: absolute;
+	top: 25px;
+	right: 15px;
+	width: 200px;
+}
+
+.accordionTabTitleBar h2 {
+	margin: 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 140%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.accordionTabTitleBar {
+	font-size           : 80%;
+	padding             : 4px 6px 4px 6px;
+	border-style        : solid none solid none;
+	border-top-color    : #BDC7E7;
+	border-bottom-color : #182052;
+	border-width        : 1px 0px 1px 0px;
+}
+
+.accordionTabContentBox {
+	font-size        : 80%;
+	border           : 1px solid #1f669b;
+	border-top-width : 0px;
+	padding          : 0px 8px 0px 8px;
+	background-color : white;
+}
+
+.accordionTabContentBox p,
+.accordionTabContentBox ul {
+	margin-top: 0;
+	padding: 0.3em;
+	margin-bottom: 0;
+	font-family: sans-serif;
+}
+	
+.accordionTabContentBox ul li {
+	margin-left: 1em;
+}
+
+.newsdate {
+	font-weight: bold;
+	display: block;
+}
+
+#statstable td, .statstext {
+	font-size: 70%;
+}
+
+.statsdartnotmarked {
+	text-decoration: line-through;
+}
+
+#yokeLabel {
+	position: absolute;
+	top: 42%;
+	left: 48%;
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+	border: 1px solid black;
+	padding: 2px;
+	display: none;
+	z-index: 99;
+}
+
+.errorbox {
+	color: red;
+	font-weight: bold;
+	padding-bottom: 1em;
+}

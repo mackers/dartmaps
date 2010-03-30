@@ -1,0 +1,375 @@
+<?xml version="1.0" ?>
+
+<locations>
+
+	<waypoints>
+		<!-- DART -->
+
+		<waypoint latitude="53.34342921954874" longitude="-6.248989105224609" 
+			 name="Pearse"/>
+		
+		<waypoint latitude="53.35316416423981" longitude="-6.246585845947266" 
+			 name="Connolly"/>
+		
+		<waypoint latitude="53.3468623221994" longitude="-6.253881454467773" 
+			 name="Tara Street"/>
+		
+		<waypoint latitude="53.3633578546093" longitude="-6.226415634155273" 
+			 name="Clontarf Road"/>
+		
+		<waypoint latitude="53.37298583492279" longitude="-6.204357147216797" 
+			 name="Killester"/>
+		
+		<waypoint latitude="53.37872061872576" longitude="-6.191310882568359" 
+			 name="Harmonstown"/>
+		
+		<waypoint latitude="53.381485327866365" longitude="-6.176290512084961" 
+			 name="Raheny"/>
+		
+		<waypoint latitude="53.387679672552146" longitude="-6.160926818847656" 
+			 name="Kilbarrack"/>
+		
+		<waypoint latitude="53.39110921128692" longitude="-6.156120300292969" 
+			 name="Howth Jct"/>
+		
+		<waypoint latitude="53.41797289843816" longitude="-6.151313781738281" 
+			 name="Portmarnock"/>
+		
+		<waypoint latitude="53.45110697855465" longitude="-6.156549453735352" 
+			 name="Malahide"/>
+		
+		<waypoint latitude="53.39151868998397" longitude="-6.136894226074219" 
+			 name="Bayside"/>
+		
+		<waypoint latitude="53.39192816474184" longitude="-6.115179061889648" 
+			 name="Sutton"/>
+		
+		<waypoint latitude="53.3891129462275" longitude="-6.073980331420898" 
+			 name="Howth"/>
+		
+		<waypoint latitude="53.339790853859746" longitude="-6.238217353820801" 
+			 name="Gd Canal Dock"/>
+		
+		<waypoint latitude="53.33425584317598" longitude="-6.229205131530762" 
+			 name="Lansdowne Rd"/>
+		
+		<waypoint latitude="53.32761800826897" longitude="-6.220579147338867" 
+			 name="Sandymount"/>
+		
+		<waypoint latitude="53.32108167909096" longitude="-6.211996078491211" 
+			 name="Sydney Parade"/>
+		
+		<waypoint latitude="53.30657001366299" longitude="-6.188220977783203" 
+			 name="Booterstown"/>
+		
+		<waypoint latitude="53.30162056158559" longitude="-6.174745559692383" 
+			 name="Blackrock"/>
+		
+		<waypoint latitude="53.297568251457164" longitude="-6.160669326782227" 
+			 name="Seapoint"/>
+		
+		<waypoint latitude="53.29536240206226" longitude="-6.152386665344238"
+			 name="Salthill &amp; Monkstown"/>
+		
+		<waypoint latitude="53.29502894980009" longitude="-6.134834289550781" 
+			 name="Dun Laoghaire"/>
+		
+		<waypoint latitude="53.28617868852238" longitude="-6.127581596374512" 
+			 name="Sandycove"/>
+		
+		<waypoint latitude="53.28061106313581" longitude="-6.120843887329102" 
+			 name="Glenageary"/>
+		
+		<waypoint latitude="53.276787711363404" longitude="-6.107797622680664" 
+			 name="Dalkey"/>
+		
+		<waypoint latitude="53.235889826935335" longitude="-6.116809844970703" 
+			 name="Shankill"/>
+		
+		<waypoint latitude="53.26321076670626" longitude="-6.109256744384766" 
+			 name="Killiney"/>
+
+		<waypoint latitude="53.20513291313525" longitude="-6.101038455963135" 
+			 name="Bray"/>
+		
+		<waypoint latitude="53.15130019426279" longitude="-6.069602966308594" 
+			 name="Greystones"/>
+
+		<!-- Western Suburban -->
+
+		<waypoint name="Drumcondra" latitude="53.36305054281032" longitude="-6.258645057678223"/>
+
+		<waypoint name="Broombridge" latitude="53.372755403365495" longitude="-6.299629211425781"/>
+
+		<waypoint name="Ashtown" latitude="53.375322084484424" longitude="-6.332845687866211"/>
+
+		<waypoint name="Castleknock" latitude="53.381491727447795" longitude="-6.371351480484009"/>
+
+		<waypoint name="Coolmine" latitude="53.377511002031426" longitude="-6.392240524291992"/>
+
+		<waypoint name="Clonsila" latitude="53.382714029867195" longitude="-6.422452926635742"/>
+
+		<waypoint name="Leixlip Confey" latitude="53.37411237125759" longitude="-6.484766006469727"/>
+
+		<waypoint name="Leixlip Louisa Bridge" latitude="53.37416357674666" longitude="-6.531200408935547"/>
+
+		<waypoint name="Maynooth" latitude="53.377030985884296" longitude="-6.592912673950195"/>
+
+		<!-- Kildare Suburban -->
+
+		<waypoint name="Heuston" latitude="53.3466061300539" longitude="-6.292054653167725"/>
+
+		<waypoint name="Cherry Orchard &amp; Parkwest" latitude="53.33501823105275" longitude="-6.365026831626892"/>
+
+		<waypoint name="Clondalkin" latitude="53.33289119891779" longitude="-6.395496726036072"/>
+
+		<waypoint name="Hazelhatch &amp; Celbridge" latitude="53.33702343830914" longitude="-6.539096832275391"/>
+
+                <waypoint name="Sallins &amp; Naas" latitude="53.250117380481285" longitude="-6.653809547424316"/>
+
+		<waypoint name="Newbridge" latitude="53.202742353507226" longitude="-6.778907775878906"/>
+
+		<waypoint name="Kildare" latitude="53.16447526188452" longitude="-6.896324157714844"/>
+
+	</waypoints>
+
+	<routes>
+		<!-- DART -->
+
+		<route from="Connolly" to="Pearse" display="none" duration="300">
+			<location waypoint="Connolly"/>
+			<location latitude="53.35208830593735" longitude="-6.250190734863281"/>
+			<location latitude="53.34896303972394" longitude="-6.254568099975586"/>
+			<location latitude="53.34773336397884" longitude="-6.254653930664062"/>
+			<location waypoint="Tara Street"/>
+			<location latitude="53.344095365558296" longitude="-6.250877380371094"/>
+			<location waypoint="Pearse"/>
+		</route>
+
+		<route from="Howth Jct" to="Connolly" display="none" duration="840">
+			<location waypoint="Howth Jct"/>
+			<location waypoint="Kilbarrack"/>
+			<location latitude="53.38496655811501" longitude="-6.165132522583008"/>
+			<location latitude="53.38378911503283" longitude="-6.168479919433594"/>
+			<location waypoint="Raheny"/>
+			<location waypoint="Harmonstown"/>
+			<location waypoint="Killester"/>
+			<location latitude="53.3703229942309" longitude="-6.212940216064453"/>
+			<location waypoint="Clontarf Road"/>
+			<location waypoint="Connolly"/>
+		</route>
+
+		<route from="Malahide" to="Howth Jct" display="none" duration="480">
+			<location waypoint="Malahide"/>
+			<location latitude="53.44594426113316" longitude="-6.157321929931641"/>
+			<location waypoint="Portmarnock"/>
+			<location latitude="53.40461992848445" longitude="-6.148481369018555"/>
+			<location latitude="53.39684155458476" longitude="-6.150798797607422"/>
+			<location latitude="53.39374516145603" longitude="-6.152901649475098"/>
+			<location waypoint="Howth Jct"/>
+		</route>
+
+		<route name="DART Howth Spur" from="Howth" to="Howth Jct" display="#00FF00" duration="560">
+			<location waypoint="Howth"/>
+			<location latitude="53.39095565575992" longitude="-6.087198257446289"/>
+			<location waypoint="Sutton"/>
+			<location latitude="53.39151868998397" longitude="-6.134405136108398"/>
+			<location waypoint="Bayside"/>
+			<location latitude="53.3920305328158" longitude="-6.152172088623047"/>
+			<location waypoint="Howth Jct"/>
+		</route>
+
+		<route from="Pearse" to="Bray" display="none" duration="2160">
+			<location waypoint="Pearse"/>
+			<location latitude="53.34209689630792" longitude="-6.243495941162109"/>
+			<location waypoint="Gd Canal Dock"/>
+			<location latitude="53.33768968439098" longitude="-6.233882904052734"/>
+			<location waypoint="Lansdowne Rd"/>
+			<location waypoint="Sandymount"/>
+			<location waypoint="Sydney Parade"/>
+			<location latitude="53.31015993077763" longitude="-6.195602416992187"/>
+			<location waypoint="Booterstown"/>
+			<location waypoint="Blackrock"/>
+			<location latitude="53.29956880704416" longitude="-6.166548728942871"/>
+			<location waypoint="Seapoint"/>
+			<location latitude="53.29602929877725" longitude="-6.15659236907959"/>
+			<location waypoint="Salthill &amp; Monkstown"/>
+			<location latitude="53.296311444252964" longitude="-6.140370368957519"/>
+			<location waypoint="Dun Laoghaire"/>
+			<location latitude="53.29251514896908" longitude="-6.13011360168457"/>
+			<location latitude="53.28933420937332" longitude="-6.126852035522461"/>
+			<location waypoint="Sandycove"/>
+			<location latitude="53.28394659403042" longitude="-6.127538681030273"/>
+			<location latitude="53.28212491326935" longitude="-6.125736236572266"/>
+			<location waypoint="Glenageary"/>
+			<location waypoint="Dalkey"/>
+			<location latitude="53.27488873840287" longitude="-6.100244522094727"/>
+			<location latitude="53.27324631537597" longitude="-6.097283363342285"/>
+			<location latitude="53.271424178494584" longitude="-6.096382141113281"/>
+			<location latitude="53.270012610624455" longitude="-6.097197532653809"/>
+			<location latitude="53.266239645930284" longitude="-6.106853485107422"/>
+			<location waypoint="Killiney"/>
+			<location latitude="53.25897510974325" longitude="-6.112561225891113"/>
+			<location latitude="53.249347056474036" longitude="-6.113762855529785"/>
+			<location latitude="53.24369758996262" longitude="-6.117110252380371"/>
+			<location latitude="53.23719978134744" longitude="-6.117238998413086"/>
+			<location waypoint="Shankill"/>
+			<location latitude="53.21495080236392" longitude="-6.107840538024902"/>
+			<location latitude="53.21091597358832" longitude="-6.10414981842041"/>
+			<location latitude="53.207985987168264" longitude="-6.102948188781738"/>
+			<location waypoint="Bray"/>
+		</route>
+
+		<route from="Bray" to="Greystones" display="none" duration="560">
+			<location waypoint="Bray"/>
+			<location waypoint="Greystones"/>
+		</route>
+
+		<route from="Pearse" to="Greystones" display="none">
+			<location routefrom="Pearse" routeto="Bray"/>
+			<location routefrom="Bray" routeto="Greystones"/>
+		</route>
+
+		<route from="Connolly" to="Greystones" display="none">
+			<location routefrom="Connolly" routeto="Pearse"/>
+			<location routefrom="Pearse" routeto="Bray"/>
+			<location routefrom="Bray" routeto="Greystones"/>
+		</route>
+
+		<route from="Malahide" to="Pearse" display="none">
+			<location routefrom="Malahide" routeto="Howth Jct"/>
+			<location routefrom="Howth Jct" routeto="Connolly"/>
+			<location routefrom="Connolly" routeto="Pearse"/>
+		</route>
+
+		<route from="Howth" to="Pearse" display="none">
+			<location routefrom="Howth" routeto="Howth Jct"/>
+			<location routefrom="Howth Jct" routeto="Connolly"/>
+			<location routefrom="Connolly" routeto="Pearse"/>
+		</route>
+
+		<route from="Malahide" to="Bray" display="none">
+			<location routefrom="Malahide" routeto="Pearse"/>
+			<location routefrom="Pearse" routeto="Bray"/>
+		</route>
+
+		<route from="Howth" to="Bray" display="none">
+			<location routefrom="Howth" routeto="Pearse"/>
+			<location routefrom="Pearse" routeto="Bray"/>
+		</route>
+
+		<route name="DART" from="Malahide" to="Greystones" display="#00FF00">
+			<location routefrom="Malahide" routeto="Pearse"/>
+			<location routefrom="Pearse" routeto="Greystones"/>
+		</route>
+
+		<route from="Howth" to="Greystones" display="none">
+			<location routefrom="Howth" routeto="Pearse"/>
+			<location routefrom="Pearse" routeto="Greystones"/>
+		</route>
+
+		<!-- Western Suburban -->
+
+		<route name="Western Suburban" from="Connolly" to="Maynooth" display="#FFFF00" duration="2100">
+			<location waypoint="Connolly"/>
+			<location latitude="53.35395823271171" longitude="-6.244912147521973"/>
+			<location latitude="53.35565518429272" longitude="-6.241714954376221"/>
+			<location latitude="53.35621868534633" longitude="-6.241081953048706"/>
+			<location latitude="53.35746732590772" longitude="-6.240663528442383"/>
+<!--
+the following co-ord inexplicibally causes firefox not to display the polyline:
+<location latitude="53.35856225752494" longitude="-6.240899562835693"/>
+-->
+			<location latitude="53.359689175309306" longitude="-6.241811513900757"/>
+			<location latitude="53.36024622025325" longitude="-6.242616176605225"/>
+			<location latitude="53.360892895479935" longitude="-6.244086027145386"/>
+			<location latitude="53.36121943072695" longitude="-6.245491504669189"/>
+			<location latitude="53.36214780158245" longitude="-6.255254745483398"/>
+			<location waypoint="Drumcondra"/>
+			<location latitude="53.364459037021334" longitude="-6.263805627822876"/>
+			<location latitude="53.364791947031634" longitude="-6.266434192657471"/>
+			<location latitude="53.364894380357626" longitude="-6.271315813064575"/>
+			<location latitude="53.3651952768285" longitude="-6.273247003555298"/>
+			<location latitude="53.365841876948394" longitude="-6.275564432144165"/>
+			<location latitude="53.36623879493341" longitude="-6.277495622634888"/>
+			<location latitude="53.36740391991682" longitude="-6.281132698059082"/>
+			<location latitude="53.370508630350024" longitude="-6.286722421646118"/>
+			<location latitude="53.370982318850224" longitude="-6.288149356842041"/>
+			<location latitude="53.371225562249265" longitude="-6.290048360824585"/>
+			<location latitude="53.37133438121494" longitude="-6.292827129364014"/>
+			<location latitude="53.37226253168318" longitude="-6.29691481590271"/>
+			<location waypoint="Broombridge"/>
+			<location latitude="53.37405476500878" longitude="-6.305819749832153"/>
+			<location latitude="53.37530288295552" longitude="-6.315422058105469"/>
+			<location latitude="53.37539889051339" longitude="-6.317793130874634"/>
+			<location latitude="53.375443693966325" longitude="-6.331193447113037"/>
+			<location waypoint="Ashtown"/>
+			<location latitude="53.37516847201095" longitude="-6.336010694503784"/>
+			<location latitude="53.375437293475926" longitude="-6.339454650878906"/>
+			<location latitude="53.37624374769036" longitude="-6.342544555664062"/>
+			<location latitude="53.379674207666554" longitude="-6.350162029266357"/>
+			<location latitude="53.38064057467325" longitude="-6.352801322937012"/>
+			<location latitude="53.382176477104615" longitude="-6.359099149703979"/>
+			<location latitude="53.382419656575934" longitude="-6.362671852111816"/>
+			<location waypoint="Castleknock"/>
+			<location latitude="53.38131253880388" longitude="-6.373840570449829"/>
+			<location latitude="53.38072377080745" longitude="-6.377724409103393"/>
+			<location latitude="53.377997412874706" longitude="-6.388828754425049"/>
+			<location waypoint="Coolmine"/>
+			<location latitude="53.37749820167105" longitude="-6.394740343093872"/>
+			<location latitude="53.37783100979037" longitude="-6.398023366928101"/>
+			<location latitude="53.37943741240573" longitude="-6.405479907989502"/>
+			<location latitude="53.38115894793749" longitude="-6.415908336639404"/>
+			<location latitude="53.381920497213336" longitude="-6.419523954391479"/>
+			<location waypoint="Clonsila"/>
+			<location latitude="53.38314918665675" longitude="-6.42400860786438"/>
+			<location latitude="53.38454421814597" longitude="-6.431035995483398"/>
+			<location latitude="53.384716994094234" longitude="-6.432934999465942"/>
+			<location latitude="53.38467859949966" longitude="-6.435188055038452"/>
+			<location latitude="53.38426265583907" longitude="-6.437816619873047"/>
+			<location latitude="53.37310105023394" longitude="-6.472535133361816"/>
+			<location waypoint="Leixlip Confey"/>
+			<location latitude="53.37550769881734" longitude="-6.4984130859375"/>
+			<location waypoint="Leixlip Louisa Bridge"/>
+			<location waypoint="Maynooth"/>
+		</route>
+
+		<route from="Maynooth" to="Pearse" display="none">
+			<location routefrom="Maynooth" routeto="Connolly"/>
+			<location routefrom="Connolly" routeto="Pearse"/>
+		</route>
+
+		<!-- Kildare suburban -->
+
+		<route name="Kildare Suburban" from="Heuston" to="Kildare" display="#FF0000">
+			<location waypoint="Heuston"/>
+                        <location latitude="53.346247458463864" longitude="-6.295697093009949"/>
+                        <location latitude="53.34630510231578" longitude="-6.29965603351593"/>
+                        <location latitude="53.346228243829245" longitude="-6.300825476646423"/>
+                        <location latitude="53.345972047873545" longitude="-6.302606463432312"/>
+                        <location latitude="53.34527390608084" longitude="-6.304344534873962"/>
+                        <location latitude="53.34456934772805" longitude="-6.305192112922668"/>
+                        <location latitude="53.34335876118914" longitude="-6.307960152626038"/>
+                        <location latitude="53.343006467644706" longitude="-6.311253905296326"/>
+                        <location latitude="53.34250044091518" longitude="-6.31964385509491"/>
+                        <location latitude="53.33637640090236" longitude="-6.351411938667297"/>
+                        <location latitude="53.33592154694868" longitude="-6.354255080223083"/>
+			<location waypoint="Cherry Orchard &amp; Parkwest"/>
+                        <location latitude="53.332942453951325" longitude="-6.391612887382507"/>
+                        <location latitude="53.33287197826434" longitude="-6.393941044807434"/>
+			<location waypoint="Clondalkin"/>
+                        <location latitude="53.33632514999515" longitude="-6.475641131401062"/>
+                        <location latitude="53.336427651748004" longitude="-6.48193895816803"/>
+                        <location latitude="53.33628671177431" longitude="-6.485543847084045"/>
+			<location waypoint="Hazelhatch &amp; Celbridge"/>
+                        <location latitude="53.25412284174981" longitude="-6.647629737854004"/>
+			<location waypoint="Sallins &amp; Naas"/>
+                        <location latitude="53.247549579854095" longitude="-6.661276817321777"/>
+                        <location latitude="53.24513570675044" longitude="-6.673207283020019"/>
+			<location waypoint="Newbridge"/>
+			<location waypoint="Kildare"/>
+		</route>
+
+	</routes>
+			
+</locations>
