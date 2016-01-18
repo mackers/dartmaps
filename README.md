@@ -1,5 +1,6 @@
-My Google Maps real-time DART mashup
+#Dartmaps
+## My Google Maps real-time DART mashup
 
-http://mackers.com/328-dartmaps_to_appear_in_moma_exhibition
-http://github.com/mackers/dartmaps
+* http://mackers.com/328-dartmaps_to_appear_in_moma_exhibition
+* http://github.com/mackers/dartmaps
 
